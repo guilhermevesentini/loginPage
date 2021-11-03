@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: #678ab1;
+    background: linear-gradient(90deg, #65c7a6 0%, rgba(201,243#238ea3));
+}
+.conteudo {
+    display: flex;
+}
+.conteudo__box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    border-radius: 5%;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 10px 20px 50px #01010156;
+}
+form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+label{
+    float: left;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-bottom:  1px solid #010101;
+}
+.btn {
+    background: #92ceff;
+    padding: 10px 20px;
+    border-radius: 5%;
+    border: none;
+    margin-bottom: 20px;
+}
+.btn:hover {
+    background: #01d5ff;
+    border: none;
+}
+form p {
+    text-decoration: none;
+    color: #010101;
+}
+form p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.wave_1 {
+    animation: waveMove1 3s ease-in-out infinite alternate;
+}
+@keyframes waveMove1 {
+    from {
+        transform: translate(-300px);
+    }
+}
+.wave_2 {
+    animation: waveMove2 3s ease-in-out infinite alternate;
+}
+@keyframes waveMove2 {
+    from {
+        transform: translate(-200px);
+    }
+}
+.wave_3 {
+    animation: waveMove3 3s ease-in-out infinite alternate;
+}
+@keyframes waveMove3 {
+    from {
+        transform: translate(100px);
+    }
+}
+.wave_4 {
+    animation: waveMove4 2s ease-in-out infinite alternate;
+}
+@keyframes waveMove4 {
+    from {
+        transform: translate(-50px);
+    }
+}
