@@ -17,9 +17,6 @@ body {
     background: #678ab1;
     background: linear-gradient(90deg, #65c7a6 0%, rgba(201,243#238ea3));
 }
-.conteudo {
-    display: flex;
-}
 .conteudo__box {
     position: absolute;
     top: 40%;
